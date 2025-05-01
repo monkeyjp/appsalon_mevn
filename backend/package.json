@@ -1,0 +1,31 @@
+{
+  "name": "appsalon_mevn_backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend for AppSalon in MEVN",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "seed:import": "node data/seed.js --import",
+    "seed:destroy": "node data/seed.js --destroy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monkeyjp/appSalon-MEVN.git"
+  },
+  "author": "Javier Pestana @monkeyjp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monkeyjp/appSalon-MEVN/issues"
+  },
+  "homepage": "https://github.com/monkeyjp/appSalon-MEVN#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.10.1"
+  }
+}
